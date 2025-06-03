@@ -39,4 +39,11 @@ An intelligent web-based dashboard that recognizes food from images and generate
 ---
 
 ## 📁 Folder Structure
-
+.
+├── app.py # Flask backend for image upload and API integration
+├── model.py # Model architecture and training code
+├── vgg16_food101_trained.h5 # Trained model weights
+├── templates/
+│ └── index.html # Dashboard UI
+├── static/ # (Optional) for styles/images if extended
+└── api.txt # API key and class labels
