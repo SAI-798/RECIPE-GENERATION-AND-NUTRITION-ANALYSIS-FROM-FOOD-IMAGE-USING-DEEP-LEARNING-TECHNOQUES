@@ -54,11 +54,13 @@ The system operates via a clear pipeline that takes an uploaded food image, iden
 ---
 
 ## 📁 Folder Structure
+
+```text
 .
-├── app.py # Flask backend for image upload and API integration
-├── model.py # Model architecture and training code
-├── vgg16_food101_trained.h5 # Trained model weights
+├── app.py                      # Flask backend application & API routing
+├── model.py                    # VGG16 model architecture & training script
+├── vgg16_food101_trained.h5    # Pre-trained CNN model weights
+├── api.txt                     # API keys and target class labels
 ├── templates/
-│ └── index.html # Dashboard UI
-├── static/ # (Optional) for styles/images if extended
-└── api.txt # API key and class labels
+│   └── index.html              # Frontend UI dashboard template
+└── static/                     # CSS, JS, and image assets
