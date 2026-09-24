@@ -13,6 +13,7 @@ An intelligent web-based dashboard that recognizes food from images and generate
 - 💬 **Interactive Output**: Displays predictions, ingredients, and nutritional content side-by-side.
 
 ---
+  
 
 ## 🚀 How It Works
 
